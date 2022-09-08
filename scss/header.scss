@@ -1,0 +1,27 @@
+
+
+header{
+    div{
+        padding-top: 50px;
+
+        .translateY{
+            transition: all 1s;
+        }
+        .translateY:hover{
+            transform: translateY(-20px);
+        }
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+        li{
+            color:black;
+            list-style-type: none;
+            font-weight: bold;
+        }
+    }
+}
+a{
+    text-decoration: none;
+}

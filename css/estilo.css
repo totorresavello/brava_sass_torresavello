@@ -1,0 +1,22 @@
+body {
+  background: #00416b;
+  background: linear-gradient(90deg, rgba(0, 65, 107, 0.613883) 1%, rgba(9, 115, 121, 0.60548) 51%, #00fff8 92%); }
+
+header div {
+  padding-top: 50px; }
+  header div .translateY {
+    transition: all 1s; }
+  header div .translateY:hover {
+    transform: translateY(-20px); }
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px; }
+  header ul li {
+    color: black;
+    list-style-type: none;
+    font-weight: bold; }
+
+a {
+  text-decoration: none; }
